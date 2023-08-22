@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images4.alphacoders.com/591/591898.jpg);
+    background-size: cover;
+}
+
+
+header:hover{
+    background-color:#D9E2EC;
+    scale: 1.0;
+    width: 100%;
+}
+nav img{
+    width: 300px;
+    height: 80px;
+    margin-top: 5px; 
+    margin-left: 10px; 
+  
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin-left: 50px;
+    margin-right: 30px;
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+   
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:green;
+  
+    
+}
+
+nav li:hover{
+   
+    scale: 1.2;
+}
+
+.mosgallery{
+    width: 200px;
+    height: 200px;
+    border: 3px solid orangered;
+    float: left;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: 75px;
+    padding: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: bisque;
+
+}
+.mosgallery img:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.mosgallery a{
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+   text-align: center;
+   text-decoration: none;
+   word-spacing: 6px;
+  
+}
+
+
+
+
+
+
+
+
+ 
